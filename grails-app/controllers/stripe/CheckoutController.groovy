@@ -12,9 +12,8 @@ class CheckoutController {
 
         try {
             //Set Stripe Secret/Api Key
-            //shahmirminhas08@gmail.com for stripe pk keys psd 0331*****60sM
-
-            Stripe.apiKey = "sk_test_51HHoS7L09pbRi9D7Te6pE0KqMHdfZTdaGS2pEduHkHp1Y78Z02AczPBRPpdrpSqVwxq8p8rWf6xjnvRR7T36XZOd00TLVN9kWB"
+        
+            Stripe.apiKey = "your stripe sk key here"
 
             def amount = Double.parseDouble(params.amount)
             def token = params.stripeToken
