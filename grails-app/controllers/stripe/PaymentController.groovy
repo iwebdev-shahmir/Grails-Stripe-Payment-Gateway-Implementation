@@ -11,6 +11,6 @@ class PaymentController {
 
     def paymentStripe(){
         println params
-        println "paymentt stripe"
+        println "payment stripe"
     }
 }
