@@ -72,8 +72,8 @@
             $cardExpMonth = $('#exp_month'),
             $cardExpYear = $('#exp_year'),
             $checkoutForm = $('#checkout_form');
-
-        Stripe.setPublishableKey("pk_test_51HHoS7L09pbRi9D7ezI9qpO2sAY1jsDIVZfTByKp2w8ri3YsubTH3yqDufQ9vSuX4I5071ofobqVuFzArzzsulYa00mvh3Gi5B");
+            //stripe public key here
+        Stripe.setPublishableKey("");
 
         $('#submit').click(checkCreditCardValues);
 
